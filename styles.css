@@ -1,0 +1,181 @@
+/* Global reset to remove margin and padding */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Container styling */
+.container {
+    margin-left: 320px;
+    width: 1140px;
+    padding: 12px 80px;
+    justify-content: center;
+    align-items: center;
+    color: #00AC25;
+}
+
+/* Logo styling */
+.Logo {
+    padding: 13.489px;
+    justify-content: center;
+    border-radius: 50px;
+    align-items: center;
+    padding-right: 40px;
+}
+
+/* Text and link styling */
+.about {
+    color: #FF5DA3;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.what-we-offer,
+.Contact,
+.Help {
+    color: #323232;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    padding: 20px;
+}
+
+.contact-us-button {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    width: 105px;
+    height: 35px;
+    padding: 8px 16px;
+    justify-content: right;
+    align-items: end;
+    border-radius: 8px;
+    background: #00AC25;
+}
+
+/* Main text styling */
+.black {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+}
+
+.pink {
+    color: #FF5DA3;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    text-align: center;
+}
+
+.first-text {
+    color: #000;
+    text-align: center;
+    font-family: "IBM Plex Sans KR";
+    font-size: 24px;
+    font-style: normal;
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    font-family: "Instrument Sans";
+    font-size: 48px;
+    font-style: normal;
+}
+
+.second-text {
+    color: #6941C6;
+    text-align: center;
+    font-family: "Hind Vadodara";
+    font-size: 24px;
+    font-style: normal;
+}
+
+/* Button styling */
+.styled-button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #00AC25;
+    margin-bottom: 578px;
+}
+
+/* Footer styling */
+.footer {
+    width: 100%;
+    background-color: #53389E;
+    color: #FFF;
+    padding: 20px 40px;
+    text-align: left; /* Ensure text is aligned to the left */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.footer-content {
+    display: inline-block;
+    width: 100%; /* Take the full width */
+    text-align: left; /* Align text to the left */
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.footer-logo img {
+    max-height: 40px;
+    vertical-align: middle;
+}
+
+.footer-nav {
+    display: inline-block;
+    margin-left: 40px;
+    text-align: right;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer-copyright {
+    text-align: right;
+    padding: 20px;
+    color: #FFF;
+}
+
+.footer-content {
+    text-align: center;  
+    white-space: nowrap; 
+}
+
+.footer-logo,
+.footer-nav,
+.footer-copyright {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-right: 20px; 
+}
+
+.footer-link {
+    text-decoration: none;  
+    color: #FFF;           
+    margin: 0 10px;         
+}
